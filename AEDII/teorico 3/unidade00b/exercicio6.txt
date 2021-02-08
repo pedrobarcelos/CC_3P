@@ -1,0 +1,12 @@
+boolean isConsoante(String s, int i){
+    boolean rersp = true;
+    if(i == s.lenght()){
+        resp = true;
+    } else if(isConsoante(s.charAt(i)) == false){
+        resp = false;
+    } else {
+        resp = isConsoante(s, i + 1);
+    }
+    
+    return resp;
+}

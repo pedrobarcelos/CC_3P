@@ -1,0 +1,7 @@
+Os operadores >> e << deslocam os bits para direita e esquerda e inserem um zero na posicao vazia. O que na prática representa uma divisão ou multiplicacao por dois.
+Logo temos:
+
+23 . 2 = 46
+23 / 2 = 11 (inteiro)
+
+por isso o codigo imprime [46 - 11].

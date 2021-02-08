@@ -1,0 +1,1 @@
+O código será executado infinitas vezes, pois não existe uma condicao de parada do método 'while' implementado.

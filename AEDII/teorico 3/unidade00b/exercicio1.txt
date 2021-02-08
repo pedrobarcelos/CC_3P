@@ -1,0 +1,8 @@
+static boolean estaContido(int array[], int x){
+    boolean veredito = false;
+    int n = array.length;
+    for(int i = 0; i < n; i++){
+        if(array[i] == x)veredito =true;
+    }
+    return veredito;
+}

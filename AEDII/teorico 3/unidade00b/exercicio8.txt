@@ -1,0 +1,2 @@
+O método 'm1' decrementará em um o valor da variável 'i' e depois retorna o valor resultante.
+Já o método 'm2' retornara o valor de 'i' e posteriormente a isso ocorre a subtracao.

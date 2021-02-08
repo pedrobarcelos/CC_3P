@@ -1,0 +1,8 @@
+    static void maiorMenor(int array[], int n){
+        int menor = array[0]; int maior = array[0];
+        for(int i = 1; i < n; i++){
+            if(menor > array[i]) menor = array[i];
+            if(maior < array[i]) maior = array[i];
+        }
+        MyIO.println("Maior: " + maior + " Menor: " + menor);
+    }
